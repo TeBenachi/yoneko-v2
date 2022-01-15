@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Yoneko Child Theme v2
+ Theme URI:    https://github.com/TeBenachi/yoneko-v2.git
+ Description:  This is a child theme of Yoneko v2. The category list is added on the homepage.
+ Author:       utz119 (Benachi)
+ Author URI:   https://www.benachi.com/
+ Template:     yoneko
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-logo, custom-menu, featured-images, 
+ Text Domain:  yonekochild
+*/
+
+
+
+/* Remove underline from the category list on the homepage */
+
+.entry-title-listings .posted-on.category a {
+    text-decoration: none;
+}
